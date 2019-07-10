@@ -1,0 +1,218 @@
+/*
+* 
+* @author Geraldo Domingos
+*/
+
+/* Layout */
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Body initial configuration */
+body {
+    background-image:
+        url(../img/capa.png),
+        url(../img/ruido.png),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Navbar Configuration */
+
+nav.navbar-trasparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(16, 211, 16);
+}
+
+.navbar-light .navbar-toggler {
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.726);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 20Px
+}
+
+/* Section Home */
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    margin: 10px 20px;
+}
+
+.btn-corCustomRoxo {
+    background: #6900fce3;
+}
+
+.btn-corCustomRoxo:hover {
+    background: #6b15bb;
+    color: white;
+}
+
+.btn-corCustomBranco {
+    border: solid 2px white;
+}
+
+.btn-corCustomBranco:hover {
+    background-color: white;
+    color: black;
+}
+
+/* "Conteudos" Structure */
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rotacionar {
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.slogan {
+    margin-bottom: 56px;
+}
+
+/* "Servicos" Structure  */
+
+#servicos {
+    background: #fff;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2,
+h3 {
+    color: #7c25f8
+}
+
+#servicos p {
+    color: #000;
+}
+
+/* "Recursos" Scructure */
+
+#recursos h2 {
+    color: #fff;
+}
+
+#recursos p {
+    color: #fff;
+}
+
+#recursos h3 {
+    color: #420879;
+}
+
+/* Media query since Configuration */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/* // Large devices (desktops 992px and up) */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
+
+/* Footer Configuration */
+
+footer {
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+footer p {
+    color: rgb(156, 155, 155);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 8px;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li a:hover {
+    color: #420879;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 6px;
+}
