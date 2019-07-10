@@ -1,2 +1,2 @@
 # spotify-clone
-Web page based on Spotify
+Página Web clone do Spotify criada com BootStrap.
